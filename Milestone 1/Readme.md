@@ -19,7 +19,6 @@ This authentication module will serve as the foundation for future AI-powered pu
 - JWT (JSON Web Token)  
 - Ngrok  
 
----
 
 ## Features Implemented
 - User Signup with validations  
@@ -37,7 +36,6 @@ This authentication module will serve as the foundation for future AI-powered pu
   - Password reset  
 - Public URL generation using ngrok  
 
----
 
 ## Database Structure
 The system maintains a users table containing:
@@ -50,7 +48,6 @@ The system maintains a users table containing:
 
 This ensures persistent and structured storage of user credentials.
 
----
 
 ## How to Run the Application (Colab)
 
@@ -74,7 +71,6 @@ A public URL will be generated. Open it in your browser.
 4. Copy your **Authtoken**.  
 5. In the Colab cell, paste it:
 
----
 
 ## Application Flow
 1. User signs up with required details.  
@@ -84,7 +80,6 @@ A public URL will be generated. Open it in your browser.
 5. User is redirected to the dashboard.  
 6. If password is forgotten, identity is verified via security question and password is reset.
 
----
 
 ## Screenshots
 
