@@ -11,7 +11,6 @@ It also provides a complete forgot-password mechanism using security questions f
 
 This authentication module will serve as the foundation for future AI-powered public policy search and summarization features in PolicyNav.
 
----
 
 ## Technologies Used
 - Python  
