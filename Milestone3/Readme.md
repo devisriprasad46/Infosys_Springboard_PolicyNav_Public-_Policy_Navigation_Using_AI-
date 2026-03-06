@@ -184,10 +184,10 @@ Ngrok will generate a **public URL** which can be opened in the browser to acces
 # Author
 
 **Infosys Springboard Virtual Internship – Batch 13**
-Velagada Devi Sri Prasad 
-Gaurav Mehtha 
-Bavithravanan CV
-Pooja K
+Velagada Devi Sri Prasad, 
+Gaurav Mehtha, 
+Bavithravanan CV,
+Pooja K,
 Arun Kumar Goshala
 
 Project: **PolicyNav – AI-Powered Public Policy Navigation**
