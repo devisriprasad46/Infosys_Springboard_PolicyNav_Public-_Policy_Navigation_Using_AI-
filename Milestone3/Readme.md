@@ -6,7 +6,7 @@ The system helps users **search, analyze, and understand public policy documents
 
 The platform also includes a **secure authentication system with OTP verification and JWT-based sessions**, ensuring safe access to the system.
 
----
+
 
 # Technologies Used
 
@@ -40,7 +40,7 @@ The platform also includes a **secure authentication system with OTP verificatio
 - Google Colab  
 - Ngrok  
 
----
+
 
 # Features Implemented
 
@@ -51,7 +51,6 @@ The platform also includes a **secure authentication system with OTP verificatio
 - JWT token-based session management
 - Secure password storage
 
----
 
 ## Readability Dashboard
 Displays readability metrics for policy documents including:
@@ -64,7 +63,6 @@ Displays readability metrics for policy documents including:
 
 These metrics are displayed using **interactive gauge charts**.
 
----
 
 ## RAG Policy Search
 The **Retrieval Augmented Generation (RAG)** module allows users to:
@@ -75,7 +73,7 @@ The **Retrieval Augmented Generation (RAG)** module allows users to:
 
 This helps users **quickly understand complex policy information**.
 
----
+
 
 ## Policy Summarization
 The summarization module allows users to:
@@ -85,7 +83,7 @@ The summarization module allows users to:
 
 This improves readability and comprehension of lengthy government documents.
 
----
+
 
 ## Knowledge Graph
 The system generates a **knowledge graph visualization** that shows:
@@ -96,7 +94,6 @@ The system generates a **knowledge graph visualization** that shows:
 
 This helps users **understand policy relationships visually**.
 
----
 
 ## History Tracking
 The application maintains a **history of user interactions**, including:
@@ -107,7 +104,7 @@ The application maintains a **history of user interactions**, including:
 
 This helps users revisit previously analyzed policies.
 
----
+
 
 ## Admin Dashboard
 The **Admin Tab** allows administrators to:
@@ -118,7 +115,7 @@ The **Admin Tab** allows administrators to:
 
 This ensures **better control and monitoring of the platform**.
 
----
+
 
 # Required Secret Keys
 
@@ -148,41 +145,41 @@ Ngrok will generate a **public URL** which can be opened in the browser to acces
 
 ⚠️ Before uploading the project to GitHub, remove the **ngrok authentication token**.
 
----
+
 
 # Application Screenshots
 
 ## Dashboard
 ![Dashboard](images/dashboard.png)
 
----
+
 
 ## RAG Search
 ![RAG Search](images/rag_search.png)
 
----
+
 
 ## Knowledge Graph
 ![Knowledge Graph](images/knowledge_graph.png)
 
----
+
 
 ## Policy Summarization
 ![Summarization](images/summarizer.png)
 
----
+
 
 ## History Tab
 ![History](images/history_tab.png)
 
----
+
 
 ## Admin Dashboard
 ![Admin](images/admin_feedback_section.png)
 
 ![Admin](images/admin_user_activity.png)
 
----
+
 
 # Author
 
