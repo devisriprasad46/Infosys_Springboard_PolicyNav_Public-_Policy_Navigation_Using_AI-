@@ -308,18 +308,33 @@ Run the application Cell by cell
 # Screenshots
 
 ## User Profile Page
-![User Profile](images/profile_page.png)
+![User Profile](images/My_Profile.png)
+
+![User Profile](images/avatar.png)
+![User Profile](images/change_email.png)
+![User Profile](images/ChangePassword.png)
 
 
 ## Admin Dashboard
 
 ![Admin Dashboard](images/admin_dashboard.png)
 
+## Feedback Analysis
+![Admin Dashboard](images/Feedback_analysis1.png)
+![Admin Dashboard](images/Feedback_analysis2.png)
 
+##Activity Tracking
+
+![Admin Dashboard](images/Activittracking.png)
 
 ## Analytics Charts
 
-![Analytics](images/analytics.png)
+![Analytics](images/analytics1.png)
+![Analytics](images/analytics2.png)
+
+#Data Export
+![Admin Dashboard](images/dataexport.png)
+
 
 
 
