@@ -314,12 +314,12 @@ Run the application Cell by cell
 ![Admin Dashboard](images/dataexport.png)
 
 
-#Authors 
-Velagada Devi Sri Prasad
-Sanjay Janarthan
-Aarthi Chandolkar
-Ramya 
-Savitha Yadav
+# Authors 
+Velagada Devi Sri Prasad,
+Sanjay Janarthan,
+Aarthi Chandolkar,
+Ramya ,
+Savitha Yadav,
 Pooja K K
 
 
