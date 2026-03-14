@@ -181,17 +181,6 @@ When a user asks a question:
 2. The system retrieves the **most relevant document chunks**.
 3. The retrieved context is passed to a **language model**.
 4. The model generates the final answer.
-
- 
-
-# Embedding Model
-
-The system uses **Sentence Transformers** to generate semantic embeddings.
-
-Example embedding model:
-
-This model converts text into numerical vectors that represent **semantic meaning**.
-
  
 
 # Vector Database
@@ -208,18 +197,7 @@ This allows the system to retrieve relevant document sections quickly.
 
  
 
-# Language Models
 
-The platform integrates **Transformer-based language models** using the HuggingFace ecosystem.
-
-Libraries used include:
-
-- Transformers
-- Torch
-- Accelerate
-- BitsAndBytes
-
-These models generate **context-aware responses** based on retrieved documents.
 
  
 
@@ -336,6 +314,12 @@ Run the application Cell by cell
 ![Admin Dashboard](images/dataexport.png)
 
 
-
+#Authors 
+Velagada Devi Sri Prasad
+Sanjay Janarthan
+Aarthi Chandolkar
+Ramya 
+Savitha Yadav
+Pooja K K
 
 
