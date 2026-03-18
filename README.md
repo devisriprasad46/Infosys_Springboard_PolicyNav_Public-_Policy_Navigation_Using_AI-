@@ -57,18 +57,15 @@ Policy documents are:
 
 ## 🚀 Key Features
 
-### 👤 User Features
+## 👤 User Features
 
-| Feature | Description |
-|--||
-| 🔐 Secure Authentication | JWT-based login & registration |
-| 🔎 RAG Search | AI-powered semantic search using FAISS |
-| 📊 Readability Analyzer | Flesch, Gunning Fog, SMOG metrics |
-| 🧠 Document Summarization | Transformer-based summarization |
-| 🌐 Knowledge Graph | Entity relationship visualization |
-| 🕘 Query History | Track previous searches & outputs |
-| 📈 Dashboard | Interactive analytics & insights |
-
+- 🔐 **Secure Authentication** – JWT-based login & registration  
+- 🔎 **RAG Search** – AI-powered semantic search using FAISS  
+- 📊 **Readability Analyzer** – Flesch, Gunning Fog, and SMOG metrics  
+- 🧠 **Document Summarization** – Transformer-based summarization  
+- 🌐 **Knowledge Graph** – Entity relationship visualization  
+- 🕘 **Query History** – Track previous searches & outputs  
+- 📈 **Dashboard** – Interactive analytics & insights  
 
 
 ### 🛠 Admin-only Features
@@ -106,17 +103,14 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-||--|
-| Frontend | Streamlit |
-| Backend | Python |
-| NLP Models | Hugging Face Transformers |
-| Vector Search | FAISS |
-| Database | SQLite |
-| Security | JWT, bcrypt |
-| Visualization | Plotly, PyVis |
-| NLP | spaCy |
-
+- 🎨 **Frontend:** Streamlit  
+- ⚙️ **Backend:** Python  
+- 🤖 **NLP Models:** Hugging Face Transformers  
+- 🔍 **Vector Search:** FAISS  
+- 🗄️ **Database:** SQLite  
+- 🔐 **Security:** JWT, bcrypt  
+- 📊 **Visualization:** Plotly, PyVis  
+- 🧠 **NLP:** spaCy  
 
 
 ## 🤖 Models Used
