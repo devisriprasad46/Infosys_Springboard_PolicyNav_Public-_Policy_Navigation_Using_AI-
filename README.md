@@ -36,7 +36,7 @@ It enables users to:
 - Analyze readability of content  
 
 📌 Built as part of **Infosys Springboard Internship Final Project**  
-📌 Target users: Researchers, policy analysts, students, government professionals  
+📌 Target users: Common persons, Researchers, policy analysts, students, government professionals  
 
 
 
