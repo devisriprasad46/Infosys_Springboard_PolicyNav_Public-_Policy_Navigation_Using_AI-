@@ -3,18 +3,6 @@
 AI-Powered Policy Document Analysis & Navigation System  
 Transforming complex policy documents into actionable insights using AI.
 
----
-
-## 🔗 Quick Links
-
-| Category | Link |
-|--------|------|
-| 📽️ Demo Video | Coming Soon |
-| 🧩 Source Code | This Repository |
-| 🐳 Docker Support | Planned |
-| 🧠 AI Models | Sentence Transformers · Qwen2.5 · spaCy |
-
----
 
 ## 📌 Table of Contents
 
@@ -34,7 +22,7 @@ Transforming complex policy documents into actionable insights using AI.
 - Team  
 - License  
 
----
+
 
 ## 📖 About the Project
 
@@ -50,7 +38,7 @@ It enables users to:
 📌 Built as part of **Infosys Springboard Internship Final Project**  
 📌 Target users: Researchers, policy analysts, students, government professionals  
 
----
+
 
 ## 🎯 Problem Statement & Motivation
 
@@ -65,14 +53,14 @@ Policy documents are:
 - Visualize relationships between entities  
 - Simplify and summarize complex content  
 
----
+
 
 ## 🚀 Key Features
 
 ### 👤 User Features
 
 | Feature | Description |
-|--------|------------|
+|--||
 | 🔐 Secure Authentication | JWT-based login & registration |
 | 🔎 RAG Search | AI-powered semantic search using FAISS |
 | 📊 Readability Analyzer | Flesch, Gunning Fog, SMOG metrics |
@@ -81,7 +69,7 @@ Policy documents are:
 | 🕘 Query History | Track previous searches & outputs |
 | 📈 Dashboard | Interactive analytics & insights |
 
----
+
 
 ### 🛠 Admin-only Features
 
@@ -91,7 +79,7 @@ Policy documents are:
 - View user activity and search logs  
 - Manage document indexing and vector store  
 
----
+
 
 ## 🧩 Architecture
 
@@ -104,7 +92,7 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
   <em>Figure: End-to-end system architecture of PolicyNav</em>
 </p>
 
----
+
 
 ## 🗄 Database Schema
 
@@ -114,12 +102,12 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
   <em>Figure: Entity Relationship Diagram (ERD) of the system database</em>
 </p>
 
----
+
 
 ## 🛠 Tech Stack
 
 | Layer | Technology |
-|------|-----------|
+||--|
 | Frontend | Streamlit |
 | Backend | Python |
 | NLP Models | Hugging Face Transformers |
@@ -129,17 +117,25 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
 | Visualization | Plotly, PyVis |
 | NLP | spaCy |
 
----
+
 
 ## 🤖 Models Used
 
-| Model | Purpose | Framework |
-|------|--------|----------|
-| Sentence Transformers | Text embeddings for RAG | 🤗 Transformers |
+| Model / Tool | Purpose | Framework |
+|-------------|--------|----------|
+| Sentence Transformers | Text embeddings for semantic search | 🤗 Transformers |
+| FAISS | Vector similarity search (RAG retrieval) | Facebook AI |
 | Qwen2.5 | Answer generation (LLM) | Transformers |
 | spaCy | Named Entity Recognition | spaCy |
 | TextStat | Readability scoring | Python |
 
+| Model / Tool | One-line Description |
+|-------------|--------------------|
+| Sentence Transformers | Converts text into dense vector embeddings for semantic understanding |
+| FAISS | Performs fast similarity search on vector embeddings for retrieval |
+| Qwen2.5 | Generates context-aware answers using large language modeling |
+| spaCy | Extracts named entities and linguistic features from text |
+| TextStat | Calculates readability scores to evaluate text complexity |
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
@@ -147,7 +143,7 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
 - Git  
 - (Optional) GPU support  
 
----
+
 
 ### 🧑‍💻 Local Setup
 
@@ -160,7 +156,7 @@ pip install -r requirements.txt
 
 To securely run the application (especially in Google Colab), you need to configure environment variables using **Ngrok** and **Gmail App Passwords**.
 
----
+
 
 ### 🌐 Ngrok Setup (for Public URL)
 
@@ -173,7 +169,7 @@ Ngrok is used to expose your Streamlit app running in Colab to the internet.
 3. Go to the **Dashboard**  
 4. Copy your **Authtoken**
 
----
+
 
 ### 🔑 Add Ngrok Secret in Google Colab
 
@@ -183,12 +179,12 @@ Ngrok is used to expose your Streamlit app running in Colab to the internet.
 4. Enter:
 
 | Key | Value |
-|-----|------|
+|--||
 | `NGROK_AUTH_TOKEN` | Your copied ngrok token |
 
 5. Save and enable access
 
----
+
 
 ### 📧 Gmail App Password Setup
 
@@ -207,18 +203,18 @@ Used for sending emails (OTP, verification, alerts).
 - Do NOT use your normal Gmail password  
 - You cannot view this password again after closing  
 
----
+
 
 ### 🔑 Add Gmail Secrets in Colab
 
 Add the following secrets:
 
 | Key | Value |
-|-----|------|
+|--||
 | `EMAIL_ID` | Your Gmail address |
 | `EMAIL_APP_PASSWORD` | 16-digit app password |
 
----
+
 
 ### 📦 Final Environment Variables
 
@@ -231,3 +227,93 @@ EMAIL_ID=your_email@gmail.com
 EMAIL_APP_PASSWORD=your_app_password
 ```
 
+## 📝 Usage Guide
+
+1️⃣ **Register/Login**  
+2️⃣ **Upload or select policy documents**  
+3️⃣ **Perform semantic search queries**  
+4️⃣ **View AI-generated answers**  
+5️⃣ **Explore knowledge graph**  
+6️⃣ **Generate summaries**  
+7️⃣ **Analyze readability**  
+8️⃣ **View history and dashboard insights**  
+
+📌 *Screenshots included below 👇*
+
+
+## 📊 Datasets & Evaluation
+
+### 📁 Datasets Used
+
+| Dataset | Usage |
+|--------|------|
+| Policy Documents (Custom) | RAG search corpus |
+| Government Reports | Real-world testing |
+| Web Scraped Docs | Knowledge graph generation |
+
+
+### 📈 Evaluation Metrics
+
+- Semantic relevance (**RAG accuracy**)  
+- Response quality (**LLM output**)  
+- Readability score improvements  
+- Knowledge graph completeness  
+
+
+## 📸 Screenshots
+
+### 📊 Dashboard
+![Dashboard](images/dashboard.png)
+
+
+
+### 🔎 RAG Search
+![RAG Search](images/rag_search.png)
+
+
+
+### 🌐 Knowledge Graph
+![Knowledge Graph](images/knowledge_graph.png)
+
+
+
+### 🕘 History
+![History](images/history.png)
+
+
+
+### 🛠 Admin Panel
+![Admin](images/admin.png)
+
+
+
+### 🧠 Summarization
+![Summarization](images/summarization.png)
+
+
+## 🛣 Roadmap
+
+- 🌍 Multi-language support  
+- 🔀 Hybrid search (BM25 + Vector)  
+- 👥 Role-based access control  
+- 🐳 Docker deployment  
+- 🤝 Real-time collaboration features  
+
+
+## Mentor
+Mohammad Sipli M
+## 👥 Team
+
+| Name | Role | Responsibilities |
+|-----|-----|----------------|
+| Add Name | ML Engineer | RAG pipeline, embeddings, evaluation |
+| Add Name | Backend Developer | Authentication, database |
+| Add Name | Frontend Developer | Streamlit UI |
+| Add Name | Documentation | README, report |
+
+
+
+## 📜 License
+
+🆓 **MIT License**  
+Free to use, modify, and distribute with attribution.
