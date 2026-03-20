@@ -1,0 +1,42 @@
+# Core
+streamlit
+python-dotenv
+
+# Backend & Utilities
+pandas
+numpy
+requests
+
+# NLP & AI
+transformers
+torch
+sentence-transformers
+spacy
+textstat
+
+# Vector Search
+faiss-cpu
+
+# Document Processing
+PyPDF2
+beautifulsoup4
+lxml
+
+# Visualization
+plotly
+networkx
+pyvis
+
+# Authentication & Security
+bcrypt
+python-jose
+
+# Database
+sqlalchemy
+
+# Optional (recommended for better performance)
+scikit-learn
+tqdm
+
+# If using HuggingFace Hub models
+huggingface-hub
