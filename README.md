@@ -1,4 +1,4 @@
-<img width="333" height="81" alt="image" src="https://github.com/user-attachments/assets/9014f68f-2813-4642-b603-be30b4a8d289" /><img width="433" height="81" alt="image" src="https://github.com/user-attachments/assets/efab918b-19ef-4d5d-90c4-80c37e0aa799" /># Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI- Velagada Devi Sri Prasad
+# Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI
 # 🧠 PolicyNav
 AI-Powered Policy Document Analysis & Navigation System  
 Transforming complex policy documents into actionable insights using AI.
