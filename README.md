@@ -2,7 +2,13 @@
 # 🧠 PolicyNav
 AI-Powered Policy Document Analysis & Navigation System  
 Transforming complex policy documents into actionable insights using AI.
+##Quick Links
 
+| Category          | Link                                 |
+| ----------------- | ------------------------------------ |
+| 📽️ Demo Video    | [Video Link](https://drive.google.com/file/d/1o0quoQmjCtUTDYM1k-SvOcfN0cxqjVTP/view?usp=sharing)                         |
+| 🧩 Source Code    | This Repository                      |
+| 🧠 AI Models      | Qwen · Sentence Transformers · FAISS |
 
 ## 📌 Table of Contents
 
@@ -42,16 +48,17 @@ It enables users to:
 
 ## 🎯 Problem Statement & Motivation
 
-Policy documents are:
-- Lengthy and difficult to navigate  
-- Written in complex language  
-- Time-consuming to analyze manually  
+## 📄 Problem & Solution
 
-🔹 Our solution uses AI to:
+**Problem:**  
+Policy documents are often lengthy and difficult to navigate, written in complex language, and time-consuming to analyze manually.
+
+**Solution:**  
+Our AI-powered system helps to:
 - Extract meaningful insights instantly  
 - Enable semantic search across documents  
 - Visualize relationships between entities  
-- Simplify and summarize complex content  
+- Simplify and summarize complex content
 
 
 
