@@ -51,7 +51,7 @@ It enables users to:
 ## 📄 Problem & Solution
 
 **Problem:**  
-Policy documents are often lengthy and difficult to navigate, written in complex language, and time-consuming to analyze manually.
+Public policy documents are often lengthy, complex, and difficult to understand due to technical language, making it challenging for users to quickly find relevant information. There is a lack of intelligent systems that enable easy search, summarization, and question-answering over such documents. This results in poor accessibility, time-consuming analysis, and potential misinterpretation of policies.
 
 **Solution:**  
 Our AI-powered system helps to:
@@ -317,7 +317,7 @@ EMAIL_APP_PASSWORD=your_app_password
 
 
 ## Mentor
-Mohammad Sipli M
+Mohamedsipli M
 ## 👥 Team
 
 | Name | Responsibilities |
