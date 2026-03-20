@@ -1,4 +1,4 @@
-# Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI- Velagada Devi Sri Prasad
+<img width="333" height="81" alt="image" src="https://github.com/user-attachments/assets/9014f68f-2813-4642-b603-be30b4a8d289" /><img width="433" height="81" alt="image" src="https://github.com/user-attachments/assets/efab918b-19ef-4d5d-90c4-80c37e0aa799" /># Infosys_Springboard_PolicyNav_Public-_Policy_Navigation_Using_AI- Velagada Devi Sri Prasad
 # 🧠 PolicyNav
 AI-Powered Policy Document Analysis & Navigation System  
 Transforming complex policy documents into actionable insights using AI.
@@ -320,12 +320,16 @@ EMAIL_APP_PASSWORD=your_app_password
 Mohammad Sipli M
 ## 👥 Team
 
-| Name | Role | Responsibilities |
-|-----|-----|----------------|
-| Add Name | ML Engineer | RAG pipeline, embeddings, evaluation |
-| Add Name | Backend Developer | Authentication, database |
-| Add Name | Frontend Developer | Streamlit UI |
-| Add Name | Documentation | README, report |
+| Name | Responsibilities |
+|-------|----------------|
+|Velagada Devi Sri Prasad  |  Admin dashboard, Data Visualization, Feed back Analysis |
+| Aarti Ramesh chandolkar |User Dashboard, My profile page, readability, Docker|
+| Kuruvaladoddi Ramya| knowledge graph, documentation |
+| Savita Yadav|  Summarisation tab  |
+| Pooja Kathirvel | rag search, Authentication |
+| Sanjay janarthanan | History tab |
+
+
 
 
 
