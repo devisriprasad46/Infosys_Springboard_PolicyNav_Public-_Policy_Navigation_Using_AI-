@@ -74,6 +74,20 @@ Our AI-powered system helps to:
 - 🕘 **Query History** – Track previous searches & outputs  
 - 📈 **Dashboard** – Interactive analytics & insights  
 
+## 🌐 Multilingual Support
+
+PolicyNav uses Facebook's **NLLB-200** (No Language Left Behind) model for high-quality, bi-directional translation. Your question is first translated to English for FAISS search, then the AI answer is translated back to your chosen language.
+
+| **Language** | **NLLB-200 Code** |
+|---|---|
+| English | `eng_Latn` |
+| Hindi | `hin_Deva` |
+| Tamil | `tam_Taml` |
+| Telugu | `tel_Telu` |
+| Kannada | `kan_Knda` |
+| Marathi | `mar_Deva` |
+| Bengali | `ben_Beng` |
+
 
 ### 🛠 Admin-only Features
 
@@ -230,14 +244,21 @@ EMAIL_APP_PASSWORD=your_app_password
 
 ## 📝 Usage Guide
 
-1️⃣ **Register/Login**  
-2️⃣ **Upload or select policy documents**  
-3️⃣ **Perform semantic search queries**  
-4️⃣ **View AI-generated answers**  
-5️⃣ **Explore knowledge graph**  
-6️⃣ **Generate summaries**  
-7️⃣ **Analyze readability**  
-8️⃣ **View history and dashboard insights**  
+1️⃣ **Register / Login** — Create an account with email, username, and a strong password (min. 8 chars, uppercase + number required)
+
+2️⃣ **Select a Feature** from the sidebar — RAG Search, Summarization, Knowledge Graph, Readability Analyzer, or History
+
+3️⃣ **RAG Search** — Type your policy question in any supported language. Choose output language and optionally enable **Simplify Jargon** mode. The AI searches the vector DB and translates the answer back.
+
+4️⃣ **Summarizer** — Upload a policy PDF or paste text, select output language, and get a 3-bullet summary. Use the Q&A box to ask follow-up questions from the same document.
+
+5️⃣ **Knowledge Graph** — Click **Render Interactive Topology** to generate a live force-directed entity graph from all ingested documents. Hover nodes for details.
+
+6️⃣ **Readability Analyzer** — Enter text or upload a PDF/TXT. View 5 readability gauges, grade level classification (Beginner / Intermediate / Advanced / Expert), and detailed text statistics.
+
+7️⃣ **Profile** — Manage your avatar, change email (OTP-verified), update password (with history check), and configure app settings.
+
+8️⃣ **Feedback** — Submit a 5-star rating and optional comment after using any feature.
 
 📌 *Screenshots included below 👇*
 
@@ -292,13 +313,7 @@ EMAIL_APP_PASSWORD=your_app_password
 ![Summarization](images/summarization.png)
 
 
-## 🛣 Roadmap
 
-- 🌍 Multi-language support  
-- 🔀 Hybrid search (BM25 + Vector)  
-- 👥 Role-based access control  
-- 🐳 Docker deployment  
-- 🤝 Real-time collaboration features  
 
 
 ## Mentor
