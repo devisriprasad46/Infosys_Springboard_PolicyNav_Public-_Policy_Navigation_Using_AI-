@@ -327,7 +327,7 @@ Mohamedsipli M
 | Kuruvaladoddi Ramya| knowledge graph, documentation |
 | Savita Yadav|  Summarisation tab  |
 | Pooja Kathirvel | rag search, Authentication |
-| Sanjay janarthanan | History tab |
+| Sanjay janarthanan | History tab, Activity Tracking page |
 
 
 
