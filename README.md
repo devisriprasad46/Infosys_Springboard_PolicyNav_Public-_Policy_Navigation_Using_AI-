@@ -136,21 +136,25 @@ Monolithic AI system integrating NLP pipelines, vector search, and visualization
 
 ## 🤖 Models Used
 
-| Model / Tool | Purpose | Framework |
-|-------------|--------|----------|
-| Sentence Transformers | Text embeddings for semantic search | 🤗 Transformers |
-| FAISS | Vector similarity search (RAG retrieval) | Facebook AI |
-| Qwen2.5 | Answer generation (LLM) | Transformers |
-| spaCy | Named Entity Recognition | spaCy |
-| TextStat | Readability scoring | Python |
+| Model / Tool                   | Purpose                                  | Framework       |
+| ------------------------------ | ---------------------------------------- | --------------- |
+| Sentence Transformers          | Text embeddings for semantic search      | 🤗 Transformers |
+| FAISS                          | Vector similarity search (RAG retrieval) | Facebook AI     |
+| Qwen2.5                        | Answer generation (LLM)                  | Transformers    |
+| spaCy                          | Named Entity Recognition                 | spaCy           |
+| TextStat                       | Readability scoring                      | Python          |
+| NLLB (No Language Left Behind) | Multilingual text translation            | 🤗 Transformers |
 
-| Model / Tool | One-line Description |
-|-------------|--------------------|
-| Sentence Transformers | Converts text into dense vector embeddings for semantic understanding |
-| FAISS | Performs fast similarity search on vector embeddings for retrieval |
-| Qwen2.5 | Generates context-aware answers using large language modeling |
-| spaCy | Extracts named entities and linguistic features from text |
-| TextStat | Calculates readability scores to evaluate text complexity |
+
+| Model / Tool                   | One-line Description                                                                            |
+| ------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Sentence Transformers          | Converts text into dense vector embeddings for semantic understanding                           |
+| FAISS                          | Performs fast similarity search on vector embeddings for retrieval                              |
+| Qwen2.5                        | Generates context-aware answers using large language modeling                                   |
+| spaCy                          | Extracts named entities and linguistic features from text                                       |
+| TextStat                       | Calculates readability scores to evaluate text complexity                                       |
+| NLLB (No Language Left Behind) | Translates text across multiple languages with high accuracy, supporting low-resource languages |
+
 ## ⚙️ Installation & Setup
 
 ### Prerequisites
