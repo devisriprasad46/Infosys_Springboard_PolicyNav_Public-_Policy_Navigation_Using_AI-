@@ -8,7 +8,7 @@ Transforming complex policy documents into actionable insights using AI.
 | ----------------- | ------------------------------------ |
 | 📽️ Demo Video    | [Video Link](https://drive.google.com/file/d/1mbPmmrhLD5Z8etwEr7z8v-OQ9IUnaCUi/view?usp=sharing)                         |
 | 🧩 Source Code    | This Repository                      |
-| 🧠 AI Models      | Qwen · Sentence Transformers · FAISS |
+| 🧠 AI Models      | Qwen · Sentence Transformers · FAISS . NLLB|
 
 ## 📌 Table of Contents
 
